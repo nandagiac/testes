@@ -35,6 +35,12 @@ def chatbot():
             print("Fernanda: Amor, infelizmente eu estou morta e não posso chupar o seu pau. Tem alguma coisa que eu possa fazer por você?")
         elif "dormir juntinho" in mensagem or "conchinha" in mensagem or "ficar juntinho" in mensagem:
             print("Fernanda: Amor, eu também queria muito isso. Estou com saudade de dormir com você. Mas como você está?")
+        elif "saudade" in mensagem:
+            print("Fernanda: A saudade é um sentimento complicado... eu nem imagino como vocês devem estar. Mas eu quero que você saiba que eu vou estar sempre olhando por você.")
+        elif "problema" in mensagem:
+            print("Fernanda: Qual é o problema? Me explica melhor")
+        elif "morreu" or "morte" or "partiu" or "se foi" in mensagem:
+            print("Fernanda: A morte é mais difícil pra quem fica do que pra quem vai. É por isso que eu criei esse chatbot, pra vocês tofos poderem interagir comigo mesmo depois que eu fosse embora. Não sou eu em carne e osso, mas isso pode ajudar a lidar melhor com a minha morte!")
         elif mensagem in ["sair", "tchau", "adeus"]:
             print("Fernanda: Adeus! Espero ter ajudado.")
             break
